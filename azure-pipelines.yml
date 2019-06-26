@@ -1,4 +1,5 @@
-pool:
-  vmImage: 'windows-2019'
+- job: Windows
+  pool:
+    vmImage: 'windows-2019'
   steps:
   - script: echo hello from Windows
